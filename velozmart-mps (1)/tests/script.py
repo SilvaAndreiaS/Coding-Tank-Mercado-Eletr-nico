@@ -99,11 +99,11 @@ class SimuladorSLA:
 
         print(f"Tempo total de operação: {self.tempo_simulado} minutos ({tempo_horas:.1f} horas)")
         print(f"Total de pedidos processados: {total_despachados}")
-        print(f"✅ Pedidos entregues no prazo: {no_prazo}")
-        print(f"❌ Pedidos atrasados (Estouro de SLA): {atrasados}")
-        print(f"📉 Taxa de atraso (Furo de SLA): {taxa_atraso:.2f}%")
-        print(f"⏱️ Atraso médio por pedido da operação: {atraso_medio:.1f} minutos")
-        print(f"🚀 Throughput (Vazão): {throughput:.1f} pedidos/hora")
+        print(f" Pedidos entregues no prazo: {no_prazo}")
+        print(f" Pedidos atrasados (Estouro de SLA): {atrasados}")
+        print(f" Taxa de atraso (Furo de SLA): {taxa_atraso:.2f}%")
+        print(f" Atraso médio por pedido da operação: {atraso_medio:.1f} minutos")
+        print(f" Throughput (Vazão): {throughput:.1f} pedidos/hora")
 
 if __name__ == '__main__':
     simulador = SimuladorSLA()
