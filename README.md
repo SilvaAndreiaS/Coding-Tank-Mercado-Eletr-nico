@@ -1,4 +1,4 @@
-## 🔄 Fluxograma do Sistema (MPS)
+## Fluxograma do Sistema (MPS)
 
 ```mermaid
 flowchart TD
